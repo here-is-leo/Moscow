@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACKED BY HERE IS LEO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        body {
+            background: #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0.5rem;
+        }
+        .deface {
+            max-width: 1000px;
+            width: 100%;
+            height: 98vh;
+            max-height: 750px;
+            background: #000000;
+            padding: 0.8rem 1.5rem 1.5rem 1.5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .group {
+            color: #00BFFF;
+            font-size: 1.8rem;
+            letter-spacing: 8px;
+            font-weight: 600;
+            margin-bottom: 0.1rem;
+            text-shadow: 0 0 25px #00BFFF, 0 0 60px #00BFFF, 0 0 100px #00BFFF;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.8rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+            margin: 0.2rem 0 0.1rem 0;
+            line-height: 1.1;
+        }
+        .sub {
+            color: #ffffff;
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            margin-bottom: 0.4rem;
+        }
+        .msg {
+            padding: 0.4rem 0.2rem;
+            margin: 0.3rem 0 0.5rem 0;
+        }
+        .msg p {
+            color: #ffffff;
+            font-size: 1.4rem;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+        }
+        .red {
+            color: #ff0000;
+            font-weight: 700;
+            text-shadow: 0 0 20px #ff0000;
+        }
+        .dedication {
+            color: #ffffff;
+            font-size: 1rem;
+            padding: 0.3rem 0 0.1rem 0;
+            letter-spacing: 0.5px;
+        }
+        .footer {
+            color: #ffffff;
+            font-size: 1.8rem;
+            letter-spacing: 8px;
+            margin-top: 0.6rem;
+            padding-top: 0.4rem;
+            font-weight: 700;
+            text-shadow: 0 0 40px #ff0000;
+        }
+        .footer .red {
+            color: #ff0000;
+            text-shadow: 0 0 50px #ff0000;
+            font-size: 2.2rem;
+        }
+
+        .timer-section {
+            margin-top: 0.8rem;
+            padding-top: 0.8rem;
+            border-top: 3px solid #ff0000;
+        }
+        .timer-label {
+            color: #ffffff;
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 0.4rem;
+            font-weight: 700;
+        }
+        .timer {
+            color: #ff0000;
+            font-size: 4.5rem;
+            font-weight: 900;
+            letter-spacing: 10px;
+            text-shadow: 0 0 50px #ff0000, 0 0 100px #ff0000;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0.3rem 0;
+            background: #0a0000;
+            border: 2px solid #ff0000;
+            border-radius: 6px;
+            margin: 0.3rem 0 0.3rem 0;
+        }
+        .fact-display {
+            color: #ffcc00;
+            font-size: 0.95rem;
+            padding: 0.3rem 0.5rem;
+            min-height: 2.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            background: #0a0a0a;
+            border: 1px solid #333;
+            border-radius: 4px;
+            margin: 0.2rem 0 0.4rem 0;
+            direction: rtl;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .btn-start {
+            background: #ff0000;
+            color: #000000;
+            border: none;
+            padding: 0.7rem 3rem;
+            font-size: 1.4rem;
+            font-weight: 900;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: 4px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            margin-top: 0.2rem;
+            border-radius: 4px;
+        }
+        .btn-start:hover {
+            background: #ffffff;
+            color: #000000;
+            box-shadow: 0 0 60px #ff0000;
+        }
+        .btn-start:active {
+            transform: scale(0.95);
+        }
+        .btn-start.running {
+            background: #660000;
+            color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            .deface { padding: 0.5rem 0.8rem; max-height: 100vh; height: 100vh; }
+            h1 { font-size: 2rem; letter-spacing: 2px; }
+            .msg p { font-size: 1.1rem; }
+            .footer { font-size: 1.3rem; letter-spacing: 4px; }
+            .timer { font-size: 3rem; letter-spacing: 6px; }
+            .btn-start { font-size: 1rem; padding: 0.5rem 1.5rem; }
+            .group { font-size: 1.4rem; letter-spacing: 5px; }
+            .dedication { font-size: 0.9rem; }
+            .sub { font-size: 0.9rem; }
+            .timer-label { font-size: 0.9rem; }
+            .fact-display { font-size: 0.8rem; min-height: 2.2rem; }
+        }
+        @media (max-width: 480px) {
+            .timer { font-size: 2.2rem; letter-spacing: 4px; }
+            h1 { font-size: 1.5rem; }
+            .msg p { font-size: 0.95rem; }
+            .footer { font-size: 1rem; }
+            .btn-start { font-size: 0.85rem; padding: 0.4rem 1rem; }
+            .group { font-size: 1.2rem; }
+            .fact-display { font-size: 0.7rem; min-height: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="deface">
+        <div class="group">MOSCOW</div>
+        <h1>HACKED BY <span class="red">HERE IS LEO</span></h1>
+        <div class="sub">(CYBER ACTIVIST)</div>
+        <div class="msg">
+            <p>
+                <span class="red">HACKED?</span> IMPROVE YOUR <span class="red">SECURITY</span>.<br>
+                <span style="color:#ffffff;">YOUR SYSTEM IS <span class="red">COMPROMISED</span></span>
+            </p>
+        </div>
+        <div class="dedication">
+            DEDICATION TO ALL THE MEMBERS OF <span class="red">HACKFORCE</span> :)
+        </div>
+        <div class="footer">
+            <span class="red">//</span> DEFACED <span class="red">//</span>
+        </div>
+
+        <div class="timer-section">
+            <div class="timer-label"> COUNTDOWN TO DESTRUCTION</div>
+            <div class="timer" id="timerDisplay">50:00:00</div>
+            <div class="fact-display" id="factDisplay"> برای شروع تایمر، دکمه START را بزن</div>
+            <button class="btn-start" id="startTimerBtn">► START</button>
+        </div>
+    </div>
+
+    <script>
+        // 25 فکت خنده‌دار و طعنه‌آمیز + 15 پند کاربردی = 40 آیتم
+        const facts = [
+            // 25 فکت خنده‌دار و طعنه‌آمیز
+            "123456 رمز عبور نیست، اعلامیه عمومی است.",
+            "رمز قوی روی کاغذ، هنوز رمز ضعیفی است.",
+            "هکر همیشه رمز را نمی‌شکند، گاهی کاربر خودش تحویلش می‌دهد.",
+            "Wi-Fi رایگان همیشه واقعاً رایگان نیست.",
+            "فایروال بدتنظیم‌شده بیشتر جنبه دکوری دارد.",
+            "آنتی‌ویروس جای عقل را نمی‌گیرد.",
+            "آپدیت نکردن یعنی دعوت از باگ‌های قدیمی.",
+            "پورت غیرضروری باز یعنی یک درِ اضافه.",
+            "بکاپ نداشتن یعنی اعتماد کامل به هارددیسک.",
+            "لینک مشکوک معمولاً دلیل خوبی برای کلیک نکردن دارد.",
+            "مهندسی اجتماعی گاهی از هک فنی ساده‌تر است.",
+            "رمز یکسان برای همه حساب‌ها یعنی یک کلید برای تمام خانه‌ها.",
+            "VPN جادوگر امنیتی نیست.",
+            "Incognito تو را از اینترنت نامرئی نمی‌کند.",
+            "فایروال نمی‌تواند جلوی اشتباهات کاربر را بگیرد.",
+            "هر نرم‌افزار اضافی یعنی یک احتمال اضافی برای آسیب‌پذیری.",
+            "سرور بدون لاگ مثل دوربین بدون حافظه است.",
+            "امنیت یک‌بار تنظیم نمی‌شود، دائماً باید بررسی شود.",
+            "قوی‌ترین سیستم هم با رمز لو رفته مشکل دارد.",
+            "«فقط یه فایل کرک بود» شروع بعضی داستان‌های غم‌انگیز کامپیوتری است.",
+            "دسترسی زیاد برای برنامه‌ها یعنی اعتماد زیاد به برنامه‌ها.",
+            "رمز عبور کوتاه، کار هکر را راحت‌تر می‌کند.",
+            "اطلاعات شخصی کوچک هم می‌توانند کنار هم خطرناک شوند.",
+            "امنیت شبکه بدون مانیتورینگ، نصفه‌کاره است.",
+            "بزرگ‌ترین آسیب‌پذیری بعضی سیستم‌ها، پشت صفحه‌کلید نشسته است.",
+            // 15 پند کاربردی
+            "پند: برای هر حساب مهم رمز متفاوت داشته باش.",
+            "پند: احراز هویت دومرحله‌ای را فعال کن.",
+            "پند: سیستم‌عامل و نرم‌افزارها را آپدیت نگه دار.",
+            "پند: روی لینک‌های مشکوک کلیک نکن.",
+            "پند: فایل ناشناس را اجرا نکن.",
+            "پند: رمز عبورت را با دیگران به اشتراک نگذار.",
+            "پند: از Password Manager معتبر استفاده کن.",
+            "پند: برای حساب ایمیل اصلیت امنیت بیشتری فعال کن.",
+            "پند: از اطلاعات مهم بکاپ بگیر.",
+            "پند: رمز پیش‌فرض روتر را تغییر بده.",
+            "پند: دسترسی برنامه‌ها را بررسی کن.",
+            "پند: پورت‌ها و سرویس‌های غیرضروری را غیرفعال کن.",
+            "پند: ورودهای مشکوک به حساب‌هایت را بررسی کن.",
+            "پند: روی شبکه‌های عمومی اطلاعات حساس وارد نکن.",
+            "پند: قبل از هر کلیک، فرستنده و مقصد لینک را بررسی کن."
+        ];
+
+        // شافل کردن (shuffle) آرایه با الگوریتم Fisher-Yates
+        function shuffleArray(arr) {
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        }
+
+        // شافل کردن فکت‌ها
+        const shuffledFacts = shuffleArray(facts);
+
+        let timerInterval = null;
+        let isRunning = false;
+        let totalSeconds = 50 * 60 * 60;
+        let factInterval = null;
+        let factIndex = 0;
+
+        const timerDisplay = document.getElementById('timerDisplay');
+        const startBtn = document.getElementById('startTimerBtn');
+        const factDisplay = document.getElementById('factDisplay');
+
+        function formatTime(seconds) {
+            const hrs = Math.floor(seconds / 3600);
+            const mins = Math.floor((seconds % 3600) / 60);
+            const secs = seconds % 60;
+            return `${String(hrs).padStart(2, '0')}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        function updateDisplay() {
+            timerDisplay.textContent = formatTime(totalSeconds);
+        }
+
+        function showNextFact() {
+            const fact = shuffledFacts[factIndex % shuffledFacts.length];
+            factDisplay.textContent = '🔐 ' + fact;
+            factIndex++;
+        }
+
+        function startTimer() {
+            if (isRunning) return;
+            if (totalSeconds <= 0) {
+                totalSeconds = 50 * 60 * 60;
+                updateDisplay();
+                timerDisplay.style.animation = 'none';
+                factIndex = 0;
+            }
+            isRunning = true;
+            startBtn.textContent = '● RUNNING';
+            startBtn.classList.add('running');
+
+            showNextFact();
+
+            timerInterval = setInterval(() => {
+                if (totalSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    clearInterval(factInterval);
+                    timerInterval = null;
+                    factInterval = null;
+                    isRunning = false;
+                    startBtn.textContent = '► RESTART';
+                    startBtn.classList.remove('running');
+                    timerDisplay.textContent = '00:00:00';
+                    timerDisplay.style.animation = 'blink 0.5s infinite';
+                    factDisplay.textContent = '⏰ TIME IS UP! SYSTEM DESTROYED!';
+                    return;
+                }
+                totalSeconds--;
+                updateDisplay();
+            }, 1000);
+
+            factInterval = setInterval(() => {
+                if (totalSeconds > 0) {
+                    showNextFact();
+                }
+            }, 120000);
+        }
+
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes blink {
+                0%, 100% { opacity: 1; }
+                50% { opacity: 0.2; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        startBtn.addEventListener('click', startTimer);
+
+        updateDisplay();
+    </script>
+</body>
+</html>

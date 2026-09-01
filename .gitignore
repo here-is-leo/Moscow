@@ -1,0 +1,50 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup-*
+wp-content/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+debug.log
+error_log
+php_error.log
+
+# Backups
+*.bak
+*.backup
+*.tar
+*.gz
+*.zip
+
+# Composer
+vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary
+tmp/
+temp/
+*.tmp
