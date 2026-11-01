@@ -1,0 +1,19 @@
+{
+    "name": "here-is-leo/moscow",
+    "description": "Advanced WordPress security research plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Here Is Leo"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moscow\\": "includes/"
+        }
+    }
+}
